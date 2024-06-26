@@ -31,7 +31,7 @@ const Customhook = () => {
       {data?.map((item) => {
         return <div key={item.id}>{item.title}</div>; // Display data once fetched
       })}
-
+      <button>click me</button>
       <button onclick={onclick}></button>
     </>
   );
